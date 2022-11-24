@@ -1,0 +1,19 @@
+package Sep22.Day12;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+
+public class ThirdTest extends BaseClass {
+	
+  @Test
+  public void f() 
+  {
+	  driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[4]/p")).click();
+	  
+  }
+  
+
+}
